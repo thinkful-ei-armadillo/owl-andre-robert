@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 //import './ChatLog.css';
-//import Participant from './Participant';
+import ChatEvent from './ChatEvent';
 
 class ChatLog extends Component {
   render() {
     return (
       <section className="chat-log">
-        {/* {this.props.messages.map((m, index) => <Message key={index} />)} */}
+        <ul>
+          {this.props.chatEvents.map((c, index) => <ChatEvent key={index} event={c} />)}
+        </ul>
       </section>
     );
   }

@@ -3,5 +3,71 @@
 exports[`Testing Chat log renders the UI as expected 1`] = `
 <section
   className="chat-log"
-/>
+>
+  <ul>
+    <li
+      className="chatEvent"
+    >
+      <div>
+        <img
+          alt="avatar for user"
+          src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+          width="25px"
+        />
+        <div>
+          <h6>
+            Axe Kubicka
+          </h6>
+           
+          <span>
+            Wed Jan 30 2019 07:50:46 GMT-0500 (STD)
+          </span>
+          <p>
+            Hello world
+          </p>
+        </div>
+      </div>
+    </li>
+    <li
+      className="chatEvent"
+    >
+      
+    </li>
+    <li
+      className="chatEvent"
+    >
+      
+    </li>
+    <li
+      className="chatEvent"
+    >
+      
+    </li>
+    <li
+      className="chatEvent"
+    >
+      
+    </li>
+    <li
+      className="chatEvent"
+    >
+      
+    </li>
+    <li
+      className="chatEvent"
+    >
+      
+    </li>
+    <li
+      className="chatEvent"
+    >
+      
+    </li>
+    <li
+      className="chatEvent"
+    >
+      
+    </li>
+  </ul>
+</section>
 `;

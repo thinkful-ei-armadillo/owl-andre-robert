@@ -10,8 +10,10 @@ class App extends Component {
     // participantsOnStage={STORE.participants.filter()}
     return (
       <main className="owl">
-        <ChatLog></ChatLog>
-        <ParticipantList participants = {STORE.participants}></ParticipantList>
+        <div>
+          <ChatLog chatEvents={STORE.chatEvents}></ChatLog>
+          <ParticipantList participants = {STORE.participants}></ParticipantList>
+        </div>
         <StageArea></StageArea>
       </main>
     );

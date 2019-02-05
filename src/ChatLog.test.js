@@ -8,14 +8,14 @@ describe('Testing Chat log', () => {
   // smoke test
   it('renders without crashing', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<ChatLog></ChatLog>, div);
+    ReactDOM.render(<ChatLog chatEvents={STORE.chatEvents}></ChatLog>, div);
     ReactDOM.unmountComponentAtNode(div);
   });
 
   //snapshot test
   it('renders the UI as expected', () => {
     const tree = renderer
-      .create(<ChatLog></ChatLog>)
+      .create(<ChatLog chatEvents={STORE.chatEvents}></ChatLog>)
       .toJSON();
     expect(tree).toMatchSnapshot();
   });

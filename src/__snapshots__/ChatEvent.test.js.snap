@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Chat event generator renders the UI of a message as expected 1`] = `
+<li
+  className="chatEvent"
+>
+  <div>
+    <img
+      alt="avatar for user"
+      src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+      width="25px"
+    />
+    <div>
+      <h6>
+        Axe Kubicka
+      </h6>
+       
+      <span>
+        Wed Jan 30 2019 07:50:46 GMT-0500 (STD)
+      </span>
+      <p>
+        Hello world
+      </p>
+    </div>
+  </div>
+</li>
+`;
+
+exports[`Testing Chat event generator renders the UI of a thumbs up as expected 1`] = `
+<li
+  className="chatEvent"
+>
+  
+</li>
+`;
