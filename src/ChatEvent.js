@@ -19,6 +19,30 @@ class ChatEvent extends Component {
           </div>
         </div>;
         break;
+      case 'thumbs-up':
+        jsx = <span>{p.name} gave a thumbs up.</span>;
+        break;
+      case 'thumbs-down':
+        jsx = <span>{p.name} gave a thumbs down.</span>;
+        break;
+      case 'raise-hand':
+        jsx = <span>{p.name} raised their hand.</span>;
+        break;
+      case 'clap':
+        jsx = <span>{p.name} clapped.</span>;
+        break;
+      case 'join':
+        jsx = <span>{p.name} joined</span>;
+        break;
+      case 'leave':
+        jsx = <span>{p.name} left</span>;
+        break;
+      case 'join-stage':
+        jsx = <span>{p.name} joined the stage</span>;
+        break;
+      case 'leave-stage':
+        jsx = <span>{p.name} left the stage</span>;
+        break;
       default:
         //
     }
