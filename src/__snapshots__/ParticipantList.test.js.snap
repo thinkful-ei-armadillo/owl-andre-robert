@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing participant list renders the UI as expected 1`] = `
+<section
+  className="participant-list"
+>
+  <div
+    className="participant"
+  >
+    <p>
+      Koren Templeton
+    </p>
+    <img
+      alt="user avatar"
+      src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+    />
+    <p>
+      in session
+    </p>
+  </div>
+  <div
+    className="participant"
+  >
+    <p>
+      Caty Flucker
+    </p>
+    <img
+      alt="user avatar"
+      src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
+    />
+    <p>
+      in session
+    </p>
+  </div>
+  <div
+    className="participant"
+  >
+    <p>
+      Frank Runciman
+    </p>
+    <img
+      alt="user avatar"
+      src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
+    />
+    <p>
+      in session
+    </p>
+  </div>
+  <div
+    className="participant"
+  >
+    <p>
+      Ashla Attwool
+    </p>
+    <img
+      alt="user avatar"
+      src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+    />
+    <p>
+      in session
+    </p>
+  </div>
+  <div
+    className="participant"
+  >
+    <p>
+      Axe Kubicka
+    </p>
+    <img
+      alt="user avatar"
+      src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+    />
+    <p>
+      not in session
+    </p>
+  </div>
+</section>
+`;

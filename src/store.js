@@ -92,4 +92,4 @@ let STORE = {
   ]
 };
 
-export default STORE;
+export {STORE};

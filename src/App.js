@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import ParticipantList from './ParticipantList';
 import StageArea from './StageArea';
-import Chatlog from './Chatlog';
+import ChatLog from './ChatLog';
 import {STORE} from './store';
 
 class App extends Component {
@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <main className="owl">
         <ChatLog></ChatLog>
-        <ParticipantList></ParticipantList>
+        <ParticipantList participants = {STORE.participants}></ParticipantList>
         <StageArea></StageArea>
       </main>
     );
