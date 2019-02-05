@@ -4,15 +4,21 @@ exports[`Testing Particpant generator renders the UI as expected 1`] = `
 <div
   className="participant"
 >
-  <p>
-    Koren Templeton
-  </p>
   <img
     alt="user avatar"
     src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
   />
-  <p>
-    in session
-  </p>
+  <div>
+    <p
+      className="msg-name"
+    >
+      Koren Templeton
+    </p>
+    <p
+      className="session-indicator"
+    >
+      in session
+    </p>
+  </div>
 </div>
 `;

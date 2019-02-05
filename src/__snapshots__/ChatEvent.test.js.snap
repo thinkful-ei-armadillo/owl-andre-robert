@@ -4,11 +4,12 @@ exports[`Testing Chat event generator renders the UI of a message as expected 1`
 <li
   className="chatEvent"
 >
-  <div>
+  <div
+    className="message-container"
+  >
     <img
       alt="avatar for user"
       src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
-      width="25px"
     />
     <div>
       <h6>
@@ -16,7 +17,7 @@ exports[`Testing Chat event generator renders the UI of a message as expected 1`
       </h6>
        
       <span>
-        Wed Jan 30 2019 07:50:46 GMT-0500 (STD)
+        4:50:46 AM
       </span>
       <p>
         Hello world
@@ -30,6 +31,11 @@ exports[`Testing Chat event generator renders the UI of a thumbs up as expected 
 <li
   className="chatEvent"
 >
-  
+  <span>
+    <strong>
+      Caty Flucker
+    </strong>
+     gave a thumbs up.
+  </span>
 </li>
 `;

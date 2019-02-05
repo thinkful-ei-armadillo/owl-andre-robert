@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing stage area renders the UI as expected 1`] = `
+<div
+  className="stage-participant"
+>
+  <h3>
+    Caty Flucker
+  </h3>
+  <img
+    alt="avatar of user"
+    src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
+  />
+</div>
+`;

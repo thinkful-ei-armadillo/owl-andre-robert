@@ -11,37 +11,37 @@ class ChatEvent extends Component {
 
     switch(this.props.event.type) {
       case 'message':
-        jsx = <div>
-          <img src={p.avatar} width={'25px'} alt={"avatar for user"}></img>
+        jsx = <div className = "message-container">
+          <img src={p.avatar} alt={"avatar for user"}></img>
           <div>
-            <h6>{p.name}</h6> <span>{time.toString()}</span>
+            <h6>{p.name}</h6> <span>{time.toLocaleTimeString()}</span>
             <p>{this.props.event.message}</p>
           </div>
         </div>;
         break;
       case 'thumbs-up':
-        jsx = <span>{p.name} gave a thumbs up.</span>;
+        jsx = <span><strong>{p.name}</strong> gave a thumbs up.</span>;
         break;
       case 'thumbs-down':
-        jsx = <span>{p.name} gave a thumbs down.</span>;
+        jsx = <span><strong>{p.name}</strong> gave a thumbs down.</span>;
         break;
       case 'raise-hand':
-        jsx = <span>{p.name} raised their hand.</span>;
+        jsx = <span><strong>{p.name}</strong> raised their hand.</span>;
         break;
       case 'clap':
-        jsx = <span>{p.name} clapped.</span>;
+        jsx = <span><strong>{p.name}</strong> clapped.</span>;
         break;
       case 'join':
-        jsx = <span>{p.name} joined</span>;
+        jsx = <span><strong>{p.name}</strong> joined</span>;
         break;
       case 'leave':
-        jsx = <span>{p.name} left</span>;
+        jsx = <span><strong>{p.name}</strong> left</span>;
         break;
       case 'join-stage':
-        jsx = <span>{p.name} joined the stage</span>;
+        jsx = <span><strong>{p.name}</strong> joined the stage</span>;
         break;
       case 'leave-stage':
-        jsx = <span>{p.name} left the stage</span>;
+        jsx = <span><strong>{p.name}</strong> left the stage</span>;
         break;
       default:
         //

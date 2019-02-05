@@ -7,72 +7,102 @@ exports[`Testing participant list renders the UI as expected 1`] = `
   <div
     className="participant"
   >
-    <p>
-      Koren Templeton
-    </p>
     <img
       alt="user avatar"
       src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
     />
-    <p>
-      in session
-    </p>
+    <div>
+      <p
+        className="msg-name"
+      >
+        Koren Templeton
+      </p>
+      <p
+        className="session-indicator"
+      >
+        in session
+      </p>
+    </div>
   </div>
   <div
     className="participant"
   >
-    <p>
-      Caty Flucker
-    </p>
     <img
       alt="user avatar"
       src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
     />
-    <p>
-      in session
-    </p>
+    <div>
+      <p
+        className="msg-name"
+      >
+        Caty Flucker
+      </p>
+      <p
+        className="session-indicator"
+      >
+        in session
+      </p>
+    </div>
   </div>
   <div
     className="participant"
   >
-    <p>
-      Frank Runciman
-    </p>
     <img
       alt="user avatar"
       src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
     />
-    <p>
-      in session
-    </p>
+    <div>
+      <p
+        className="msg-name"
+      >
+        Frank Runciman
+      </p>
+      <p
+        className="session-indicator"
+      >
+        in session
+      </p>
+    </div>
   </div>
   <div
     className="participant"
   >
-    <p>
-      Ashla Attwool
-    </p>
     <img
       alt="user avatar"
       src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
     />
-    <p>
-      in session
-    </p>
+    <div>
+      <p
+        className="msg-name"
+      >
+        Ashla Attwool
+      </p>
+      <p
+        className="session-indicator"
+      >
+        in session
+      </p>
+    </div>
   </div>
   <div
     className="participant"
   >
-    <p>
-      Axe Kubicka
-    </p>
     <img
       alt="user avatar"
       src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
     />
-    <p>
-      not in session
-    </p>
+    <div>
+      <p
+        className="msg-name"
+      >
+        Axe Kubicka
+      </p>
+      <p
+        className="disabled session-indicator"
+      >
+        not in session
+      </p>
+    </div>
   </div>
 </section>
 `;

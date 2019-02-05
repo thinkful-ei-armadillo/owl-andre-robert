@@ -5,11 +5,20 @@ import React, { Component } from 'react';
 
 class Participant extends Component {
   render() {
+    let jsx = '';
+    if (this.props.participant.inSession){
+      jsx = <p className="session-indicator">in session</p>;
+    }
+    else {
+      jsx = <p className="disabled session-indicator">not in session</p>;
+    }
     return (
       <div className="participant">
-        <p>{this.props.participant.name}</p>
-        <img src = {this.props.participant.avatar} alt ="user avatar" ></img>
-        <p>{(this.props.participant.inSession) ? 'in session' : 'not in session'}</p>
+        <img src={this.props.participant.avatar} alt="user avatar" ></img>
+          <div>
+            <p className = "msg-name">{this.props.participant.name}</p>
+            {jsx}
+          </div>
       </div>
     );
   }

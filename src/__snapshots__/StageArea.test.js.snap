@@ -3,5 +3,61 @@
 exports[`Testing stage area renders the UI as expected 1`] = `
 <section
   className="stage-area"
-/>
+>
+  <div
+    className="stage-participant"
+  >
+    <h3>
+      Koren Templeton
+    </h3>
+    <img
+      alt="avatar of user"
+      src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+    />
+  </div>
+  <div
+    className="stage-participant"
+  >
+    <h3>
+      Caty Flucker
+    </h3>
+    <img
+      alt="avatar of user"
+      src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
+    />
+  </div>
+  <div
+    className="stage-participant"
+  >
+    <h3>
+      Axe Kubicka
+    </h3>
+    <img
+      alt="avatar of user"
+      src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+    />
+  </div>
+  <div
+    className="stage-participant"
+  >
+    <h3>
+      Frank Runciman
+    </h3>
+    <img
+      alt="avatar of user"
+      src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
+    />
+  </div>
+  <div
+    className="stage-participant"
+  >
+    <h3>
+      Ashla Attwool
+    </h3>
+    <img
+      alt="avatar of user"
+      src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+    />
+  </div>
+</section>
 `;
